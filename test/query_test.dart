@@ -4,7 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 class BasicFilterQueryTest {
   final String description;
   final dynamic value;
-  final String expectedValues;
+  final List<dynamic> expectedValues;
 
   BasicFilterQueryTest({
     required this.description,
